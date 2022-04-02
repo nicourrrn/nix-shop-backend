@@ -1,4 +1,4 @@
-module backend
+module github.com/nicourrrn/nix-shop-backend
 
 go 1.17
 
