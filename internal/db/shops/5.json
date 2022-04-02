@@ -1,0 +1,48 @@
+{
+  "id": 5,
+  "name": "Target",
+  "type": "supermarket",
+  "image": "https://1000logos.net/wp-content/uploads/2021/04/Target-logo.png",
+  "workingHours": {
+    "opening": "00:00",
+    "closing": "24:00"
+  },
+  "menu": [
+    {
+      "id": 13,
+      "name": "Swedish Meatballs",
+      "price": 3.87,
+      "image": "https://target.scene7.com/is/image/Target/GUEST_9066181d-e570-4eb1-b85d-1c8a547857fe?wid=1416&hei=1416&fmt=webp",
+      "type": "frozen_meal",
+      "ingredients": [
+        "Pasta",
+        "Meat",
+        "Mayo"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Unwrapped Burrito Bowl",
+      "price": 4.9,
+      "image": "https://target.scene7.com/is/image/Target/GUEST_7c640617-96cd-4236-96f0-38a995828861?wid=1416&hei=1416&fmt=webp",
+      "type": "frozen_meal",
+      "ingredients": [
+        "Corn",
+        "Onion",
+        "Rice"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Tortellini Bowls",
+      "price": 3.84,
+      "image": "https://target.scene7.com/is/image/Target/GUEST_dd195641-5a34-4be1-9e14-c4632ee5942e?wid=1416&hei=1416&fmt=webp",
+      "type": "frozen_meal",
+      "ingredients": [
+        "Garlic",
+        "Basil",
+        "Mozarella"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": 7,
+  "name": "Linea Caffe",
+  "type": "coffee_shop",
+  "image": "https://lineacaffe.com/wp-content/themes/lineacaffe/images/linea-logo.svg",
+  "workingHours": {
+    "opening": "07:00",
+    "closing": "19:00"
+  },
+  "menu": [
+    {
+      "id": 19,
+      "name": "Angel Food Cake",
+      "price": 7.45,
+      "image": "https://i5.walmartimages.com/asr/7be23ae2-0733-4fe1-a13c-13c1121db61a.37700bee4e0c25b6a3f93496ae17c7c7.jpeg",
+      "type": "dessert",
+      "ingredients": [
+        "Flour",
+        "Strawberry",
+        "Butter"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "New York Style Cheesecake",
+      "price": 5.08,
+      "image": "https://i5.walmartimages.com/asr/7df68f47-78dc-4308-8a46-2ca7e1fa50e6.b2973bca56a71b9dc3e773ee08aeb1a6.jpeg",
+      "type": "dessert",
+      "ingredients": [
+        "Cottage Cheese",
+        "Sugar",
+        "Butter"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Sweet Potato Pie",
+      "price": 7.24,
+      "image": "https://i5.walmartimages.com/asr/7bd145de-7975-4c04-842e-188a5a0be79d_2.57a9e072cd4d529d16ccd9125f6a035d.jpeg",
+      "type": "pastry",
+      "ingredients": [
+        "Potatoes",
+        "Flour",
+        "Sugar",
+        "Milk"
+      ]
+    }
+  ]
+}

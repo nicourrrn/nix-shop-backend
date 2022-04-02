@@ -1,4 +1,4 @@
-CREATE TABLE `suppliers` (
+CREATE TABLE IF NOT EXISTS `suppliers` (
   `id` int(11) NOT NULL,
   `name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   `type_id` int(11) NOT NULL,
@@ -12,7 +12,7 @@ CREATE TABLE `suppliers` (
   CONSTRAINT `suppliers_supplier_types_id_fk` FOREIGN KEY (`type_id`) REFERENCES `supplier_types` (`id`) ON DELETE CASCADE
 );
 
-CREATE TABLE `clients` (
+CREATE TABLE IF NOT EXISTS `clients` (
   `id` int(11) NOT NULL,
   `name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   `phone` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -24,7 +24,7 @@ CREATE TABLE `clients` (
   UNIQUE KEY `clients_email_uindex` (`phone`)
 );
 
-CREATE TABLE `baskets` (
+CREATE TABLE IF NOT EXISTS `baskets` (
   `id` int(11) NOT NULL,
   `client_id` int(11) NOT NULL,
   `address` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -37,7 +37,7 @@ CREATE TABLE `baskets` (
 );
 
 
-CREATE TABLE `ingredients` (
+CREATE TABLE IF NOT EXISTS `ingredients` (
   `id` int(11) NOT NULL,
   `name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   `update_at` timestamp NOT NULL DEFAULT current_timestamp(),
@@ -46,7 +46,7 @@ CREATE TABLE `ingredients` (
   UNIQUE KEY `ingredients_name_uindex` (`name`)
 );
 
-CREATE TABLE `product_basket` (
+CREATE TABLE IF NOT EXISTS `product_basket` (
   `product_id` int(11) NOT NULL,
   `basket_id` int(11) NOT NULL,
   `count` int(11) NOT NULL,
@@ -54,14 +54,14 @@ CREATE TABLE `product_basket` (
   `update_at` timestamp NOT NULL DEFAULT current_timestamp()
 );
 
-CREATE TABLE `product_ingredient` (
+CREATE TABLE IF NOT EXISTS `product_ingredient` (
   `product_id` int(11) NOT NULL,
   `ingredient_id` int(11) NOT NULL,
   `update_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `create_at` timestamp NOT NULL DEFAULT current_timestamp()
 );
 
-CREATE TABLE `product_types` (
+CREATE TABLE IF NOT EXISTS `product_types` (
   `id` int(11) NOT NULL,
   `name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   `update_at` timestamp NOT NULL DEFAULT current_timestamp(),
@@ -70,7 +70,7 @@ CREATE TABLE `product_types` (
   UNIQUE KEY `product_types_name_uindex` (`name`)
 );
 
-CREATE TABLE `products` (
+CREATE TABLE IF NOT EXISTS `products` (
   `id` int(11) NOT NULL,
   `name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   `price` float NOT NULL,
@@ -86,7 +86,7 @@ CREATE TABLE `products` (
   CONSTRAINT `products_suppliers_id_fk` FOREIGN KEY (`supplier_id`) REFERENCES `suppliers` (`id`) ON DELETE CASCADE
 );
 
-CREATE TABLE `supplier_types` (
+CREATE TABLE IF NOT EXISTS `supplier_types` (
   `id` int(11) NOT NULL,
   `name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   `update_at` timestamp NOT NULL DEFAULT current_timestamp(),

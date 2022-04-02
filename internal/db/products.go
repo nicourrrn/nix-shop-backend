@@ -19,7 +19,7 @@ func (repo *productRepo) AddIngredients(newIngredients []string) {
 	for _, i := range newIngredients {
 		ingredients = append(ingredients, map[string]interface{}{"name": i})
 	}
-	_, err := repo.connection.NamedExec("INSERT INTO ingredients(name) VALUES (:name) ON DUPLICATE KEY UPDATE name=name", newIngredients)
+	_, err := repo.connection.NamedExec("INSERT INTO ingredients(name) VALUES (:name) ON DUPLICATE KEY UPDATE name=name", ingredients)
 	if err != nil {
 		panic(err)
 	}

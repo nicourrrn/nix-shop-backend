@@ -1,0 +1,57 @@
+{
+  "id": 4,
+  "name": "Sushi Space",
+  "type": "restaurant",
+  "image": "https://image.freepik.com/free-vector/sushi-restaurant-logo_8169-12.jpg",
+  "workingHours": {
+    "opening": "08:00",
+    "closing": "20:00"
+  },
+  "menu": [
+    {
+      "id": 10,
+      "name": "Philadelphia with salmon",
+      "price": 7.08,
+      "image": "https://ninjasushi.com.ua/img/452.png",
+      "type": "sushi",
+      "ingredients": [
+        "Salmon",
+        "Nori",
+        "Rice",
+        "Cucumber",
+        "Cream cheese"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Unagi Philadelphia",
+      "price": 7.25,
+      "image": "https://ninjasushi.com.ua/img/102-600x600.png",
+      "type": "sushi",
+      "ingredients": [
+        "Salmon",
+        "Nori",
+        "Rice",
+        "Cucumber",
+        "Cream cheese",
+        "Unagi sauce"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Himawari",
+      "price": 7.09,
+      "image": "https://roll-club.kh.ua/wp-content/uploads/2014/08/ukrainskaja.jpg.webp",
+      "type": "sushi",
+      "ingredients": [
+        "Salmon",
+        "Nori",
+        "Rice",
+        "Cucumber",
+        "Cream cheese",
+        "Unagi sauce",
+        "Japanese tamago"
+      ]
+    }
+  ]
+}
