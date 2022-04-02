@@ -1,10 +1,10 @@
 package db
 
 import (
-	. "backend/internal/models"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
+	. "github.com/nicourrrn/nix-shop-backend/internal/models"
 	"log"
 	"os"
 )

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"backend/internal/db"
-	. "backend/internal/models"
-	"backend/pkg/jwt_handler"
 	"encoding/json"
+	"github.com/nicourrrn/nix-shop-backend/internal/db"
+	. "github.com/nicourrrn/nix-shop-backend/internal/models"
+	"github.com/nicourrrn/nix-shop-backend/pkg/jwt_handler"
 	"golang.org/x/crypto/bcrypt"
 	"net/http"
 	"strconv"

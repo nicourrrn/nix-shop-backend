@@ -1,8 +1,8 @@
 package db
 
 import (
-	. "backend/internal/models"
 	"encoding/json"
+	. "github.com/nicourrrn/nix-shop-backend/internal/models"
 	"log"
 	"os"
 )

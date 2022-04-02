@@ -1,8 +1,8 @@
 package db
 
 import (
-	. "backend/internal/models"
 	"github.com/jmoiron/sqlx"
+	. "github.com/nicourrrn/nix-shop-backend/internal/models"
 )
 
 type productRepo struct {
