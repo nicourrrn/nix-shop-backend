@@ -1,5 +1,6 @@
 module github.com/nicourrrn/nix-shop-backend
 
+// +heroku goVersion go1.17
 go 1.17
 
 require (
@@ -9,3 +10,4 @@ require (
 	github.com/justinas/alice v1.2.0
 	golang.org/x/crypto v0.0.0-20220321153916-2c7772ba3064
 )
+
