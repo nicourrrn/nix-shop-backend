@@ -1,0 +1,50 @@
+{
+  "id": 6,
+  "name": "Wallmart",
+  "type": "supermarket",
+  "image": "https://cdn.corporate.walmart.com/dims4/WMT/ea03f5e/2147483647/strip/true/crop/855x305+0+0/resize/1578x563!/quality/90/?url=https%3A%2F%2Fcdn.corporate.walmart.com%2F98%2F28%2F342ccbff478ab025592645fafcfc%2Fwalmart-logo.png",
+  "workingHours": {
+    "opening": "00:00",
+    "closing": "24:00"
+  },
+  "menu": [
+    {
+      "id": 16,
+      "name": "Chicken Pot Pie",
+      "price": 5.63,
+      "image": "https://i5.walmartimages.com/asr/64dc7c05-7d2c-4e29-854d-bada644f019e_1.f4de24032b1a5f48063903f488213f99.jpeg",
+      "type": "frozen_meal",
+      "ingredients": [
+        "Chicken",
+        "Flour",
+        "Peas",
+        "Carrots"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Beef & Bean Green Chili Burritos",
+      "price": 7.63,
+      "image": "https://i5.walmartimages.com/asr/94fb73ff-59ce-48c2-acd3-42bbb3c52e67.56499b84aa3d79c7a9c51f29da5c3626.png",
+      "type": "appetizer",
+      "ingredients": [
+        "Chili Pepper",
+        "Onion",
+        "Rice",
+        "Mayo"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Peanut Butter & Grape Jelly Sandwich",
+      "price": 2.59,
+      "image": "https://i5.walmartimages.com/asr/f490a06c-4ea2-41f5-9151-a05449e93e43.64a407ec5ca286d97dd37cdede9f51fc.jpeg",
+      "type": "appetizer",
+      "ingredients": [
+        "Flour",
+        "Peanuts",
+        "Grapes"
+      ]
+    }
+  ]
+}

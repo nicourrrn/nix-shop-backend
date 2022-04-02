@@ -1,0 +1,167 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"ALL\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"6b1c2116-65f8-42a1-bfb4-b593ce04b044\" name=\"Changes\" comment=\"Add error return\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../frontend/src/components/CompBasket.vue\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../frontend/src/components/CompBasket.vue\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../frontend/src/store/user.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../frontend/src/store/user.js\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../frontend/src/views/BasketView.vue\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../frontend/src/views/BasketView.vue\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Go File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"GOROOT\" url=\"file:///usr/lib/go\" />\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"GitSEFilterConfiguration\">\n    <file-type-list>\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\n      <filtered-out-file-type name=\"TAG\" />\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\n    </file-type-list>\n  </component>\n  <component name=\"GoLibraries\">\n    <option name=\"indexEntireGoPath\" value=\"false\" />\n  </component>\n  <component name=\"MacroExpansionManager\">\n    <option name=\"directoryName\" value=\"obbg0gp0\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"26nF0Dj7Wvuk0Hwpua2OJQrfbMh\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DatabaseDriversLRU\" value=\"mariadb\" />\n    <property name=\"DefaultGoTemplateProperty\" value=\"Go File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"dart.analysis.tool.window.visible\" value=\"false\" />\n    <property name=\"go.format.on.save.advertiser.fired\" value=\"true\" />\n    <property name=\"go.formatter.settings.were.checked\" value=\"true\" />\n    <property name=\"go.import.settings.migrated\" value=\"true\" />\n    <property name=\"go.modules.go.list.on.any.changes.was.set\" value=\"true\" />\n    <property name=\"go.watchers.conflict.with.on.save.actions.check.performed\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../frontend\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"project.propVCSSupport.DirectoryMappings\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/cmd/updater\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Go Build.go build backend/cmd/api\">\n    <configuration name=\"go build backend/cmd/api\" type=\"GoApplicationRunConfiguration\" factoryName=\"Go Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"backend\" />\n      <working_directory value=\"$PROJECT_DIR$\" />\n      <envs>\n        <env name=\"accessKey\" value=\"access\" />\n        <env name=\"refreshKey\" value=\"refresh\" />\n        <env name=\"accessLifeTime\" value=\"60\" />\n        <env name=\"refreshLifeTime\" value=\"600\" />\n      </envs>\n      <kind value=\"PACKAGE\" />\n      <package value=\"backend/cmd/api\" />\n      <directory value=\"$PROJECT_DIR$\" />\n      <filePath value=\"$PROJECT_DIR$/cmd/api/main.go\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"go build backend/cmd/updater\" type=\"GoApplicationRunConfiguration\" factoryName=\"Go Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"backend\" />\n      <working_directory value=\"$PROJECT_DIR$\" />\n      <kind value=\"PACKAGE\" />\n      <package value=\"backend/cmd/updater\" />\n      <directory value=\"$PROJECT_DIR$\" />\n      <filePath value=\"$PROJECT_DIR$/cmd/updater/main.go\" />\n      <method v=\"2\" />\n    </configuration>\n    <list>\n      <item itemvalue=\"Go Build.go build backend/cmd/api\" />\n      <item itemvalue=\"Go Build.go build backend/cmd/updater\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Go Build.go build backend/cmd/api\" />\n        <item itemvalue=\"Go Build.go build backend/cmd/updater\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <ignored-roots>\n      <path value=\"$PROJECT_DIR$\" />\n    </ignored-roots>\n    <MESSAGE value=\"Init commit\" />\n    <MESSAGE value=\"Add login page&#10;Restruct vue store\" />\n    <MESSAGE value=\"Add ingredients handler\" />\n    <MESSAGE value=\"Add jwt token support\" />\n    <MESSAGE value=\"Add auth and supplier handlers\" />\n    <MESSAGE value=\"Add getting by supplier handlers\" />\n    <MESSAGE value=\"Add client refresh handlers\" />\n    <MESSAGE value=\"Add cookies support and handlers\" />\n    <MESSAGE value=\"Rebase from cookies to localStorage\" />\n    <MESSAGE value=\"Add client request\" />\n    <MESSAGE value=\"Add new basket handler\" />\n    <MESSAGE value=\"Add logout and print username from login btn\" />\n    <MESSAGE value=\"Refactor models and db wrapping\" />\n    <MESSAGE value=\"Add error return\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Add error return\" />\n  </component>\n  <component name=\"VgoProject\">\n    <integration-enabled>true</integration-enabled>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision bc68688c00f1b1c92a2b548f9821956a904c809a)
++++ b/.idea/workspace.xml	(date 1648899442228)
+@@ -4,11 +4,8 @@
+     <option name="autoReloadType" value="ALL" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="6b1c2116-65f8-42a1-bfb4-b593ce04b044" name="Changes" comment="Add error return">
++    <list default="true" id="6b1c2116-65f8-42a1-bfb4-b593ce04b044" name="Changes" comment="Add upd files with shops">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/CompBasket.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/CompBasket.vue" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../frontend/src/store/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/store/user.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/BasketView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/BasketView.vue" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -25,6 +22,7 @@
+   <component name="GOROOT" url="file:///usr/lib/go" />
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
++    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+   <component name="GitSEFilterConfiguration">
+     <file-type-list>
+@@ -61,7 +59,7 @@
+     <property name="go.import.settings.migrated" value="true" />
+     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontend" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/conf" />
+     <property name="node.js.detected.package.eslint" value="true" />
+     <property name="node.js.detected.package.tslint" value="true" />
+     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+@@ -70,7 +68,11 @@
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+   <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/conf" />
++    </key>
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$" />
+       <recent name="$PROJECT_DIR$/cmd/updater" />
+     </key>
+   </component>
+@@ -83,6 +85,9 @@
+         <env name="refreshKey" value="refresh" />
+         <env name="accessLifeTime" value="60" />
+         <env name="refreshLifeTime" value="600" />
++        <env name="sql_username" value="nix-shop-user" />
++        <env name="sql_password" value="200303" />
++        <env name="sql_database" value="nix_shop" />
+       </envs>
+       <kind value="PACKAGE" />
+       <package value="backend/cmd/api" />
+@@ -119,7 +124,19 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="main" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+@@ -143,7 +160,12 @@
+     <MESSAGE value="Add logout and print username from login btn" />
+     <MESSAGE value="Refactor models and db wrapping" />
+     <MESSAGE value="Add error return" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Add error return" />
++    <MESSAGE value="Bugfix" />
++    <MESSAGE value="Add database" />
++    <MESSAGE value="View open and close time" />
++    <MESSAGE value="Make .env.dist" />
++    <MESSAGE value="Add upd files with shops" />
++    <option name="LAST_COMMIT_MESSAGE" value="Add upd files with shops" />
+   </component>
+   <component name="VgoProject">
+     <integration-enabled>true</integration-enabled>
+Index: ../frontend/src/views/SuppliersView.vue
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../frontend/src/views/SuppliersView.vue b/../frontend/src/views/SuppliersView.vue
+new file mode 100644
+--- /dev/null	(date 1648899444446)
++++ b/../frontend/src/views/SuppliersView.vue	(date 1648899444446)
+@@ -0,0 +1,27 @@
++<template>
++  <SupplierListElement
++    v-for="s of supplierList"
++    :key="s.id"
++    :suppleir="s">
++  </SupplierListElement>
++</template>
++
++<script>
++import SupplierListElement from '../components/SupplierListElement'
++
++export default {
++  name: 'SuppliersView',
++  data () {
++    return {
++      supplierList: this.$store.getters.suppliers
++    }
++  },
++  components: {
++    SupplierListElement
++  }
++}
++</script>
++
++<style scoped lang="sass">
++
++</style>
+Index: ../frontend/src/components/SupplierListElement.vue
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../frontend/src/components/SupplierListElement.vue b/../frontend/src/components/SupplierListElement.vue
+new file mode 100644
+--- /dev/null	(date 1648899444413)
++++ b/../frontend/src/components/SupplierListElement.vue	(date 1648899444413)
+@@ -0,0 +1,23 @@
++<template>
++  <div class="element" @click="() => $router.push(`/suppliers/${supplier.id}`)">
++    <span class="name"> {{supplier.name}} </span>
++    <img :src="supplier.img" />
++    <span class="type"> {{supplier.type}} </span>
++    <span class="time"> {{ `${supplier.openAt}-${supplier.closeAt}`}} </span>
++  </div>
++</template>
++
++<script>
++export default {
++  name: 'SupplierListElement',
++  props: ['supplier']
++}
++</script>
++
++<style scoped lang="sass">
++.element
++  display: flex
++  flex-direction: column
++  justify-content: center
++
++</style>

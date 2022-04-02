@@ -1,0 +1,52 @@
+{
+    "id": 1,
+    "name": "Pizza Club",
+    "type": "restaurant",
+    "image": "https://play-lh.googleusercontent.com/qMewibe3u5Wvq3fBf3Ca3_QItjHCOKeGrOAzVXWxqzgRpMwxYlD5CA6M2M5L78SwNA",
+    "workingHours": {
+        "opening": "09:00",
+        "closing": "20:00"
+    },
+    "menu": [
+        {
+            "id": 1,
+            "name": "Pizza Pepperoni with tomatoes",
+            "price": 6.07,
+            "image": "https://roll-club.kh.ua/wp-content/uploads/2021/04/okean-1.jpg.webp",
+            "type": "pizza",
+            "ingredients": [
+                "Mozarella",
+                "Peperoni",
+                "Tomatoes",
+                "BBQ sauce"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Pizza Texas",
+            "price": 2.5,
+            "image": "https://roll-club.kh.ua/wp-content/uploads/2021/04/4-mjasa-1.jpg.webp",
+            "type": "pizza",
+            "ingredients": [
+                "Corn",
+                "Onion",
+                "Mushrooms",
+                "Bavarian sausages",
+                "Mozarella",
+                "BBQ sauce"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Pizza Hawaiian",
+            "price": 7.85,
+            "image": "https://roll-club.kh.ua/wp-content/uploads/2021/04/rostbif-v-tunce-1.jpg.webp",
+            "type": "pizza",
+            "ingredients": [
+                "Chicken",
+                "Pineapple",
+                "Mozarella"
+            ]
+        }
+    ]
+}

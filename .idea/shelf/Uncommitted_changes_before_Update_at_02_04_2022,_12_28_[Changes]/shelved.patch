@@ -1,0 +1,18 @@
+Index: conf/.env
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/conf/.env b/conf/.env
+new file mode 100644
+--- /dev/null	(date 1648891202957)
++++ b/conf/.env	(date 1648891202957)
+@@ -0,0 +1,7 @@
++accessKey=access;
++refreshKey=refresh;
++accessLifeTime=60;
++refreshLifeTime=600;
++sql_username=nix-shop-user;
++sql_password=200303;
++sql_database=nix_shop
+\ No newline at end of file
