@@ -14,10 +14,16 @@ var Products productRepo
 var Suppliers supplierRepo
 
 func init() {
+    jawsdb := os.Getenv("JAWSDB_URL")
 	username := os.Getenv("sql_username")
 	password := os.Getenv("sql_password")
 	database_name := os.Getenv("sql_database")
-	tmp := fmt.Sprintf("%s:%s@/%s", username, password, database_name)
+    if jawsdb != ""{
+		tmp = jawsdb
+
+	} else {
+		tmp := fmt.Sprintf("%s:%s@/%s", username, password, database_name)
+	}
 	db, err := sqlx.Open("mysql", tmp)
 	if err != nil {
 		log.Fatalln(err)
