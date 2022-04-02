@@ -53,7 +53,7 @@ func Migration(connection *sqlx.DB) {
 }
 
 func Connect() *sqlx.DB {
-	jawsdb := os.Getenv("JAWSDB_URL")
+	jawsdb := os.Getenv("db_url")
 	username := os.Getenv("sql_username")
 	password := os.Getenv("sql_password")
 	database_name := os.Getenv("sql_database")
