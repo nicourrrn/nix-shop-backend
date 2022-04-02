@@ -4,9 +4,14 @@ import (
 	"github.com/justinas/alice"
 	"log"
 	"net/http"
+	"os"
 )
 
 func main() {
+	port := os.Getenv("PORT")
+	if port == "" {
+		log.Fatal("$PORT must be set")
+	}
 	api := http.NewServeMux()
 	headersMiddleware := alice.New(AddHeaders)
 	api.Handle("/ingredients", headersMiddleware.ThenFunc(GetAllIngredients))
@@ -18,7 +23,7 @@ func main() {
 	api.Handle("/products", headersMiddleware.ThenFunc(GetSupplierMenu))
 	api.Handle("/basket/new", headersMiddleware.ThenFunc(PostBasket))
 	api.Handle("/basket/all", headersMiddleware.ThenFunc(GetAllBasket))
-	log.Println(http.ListenAndServe(":443", api))
+	log.Println(http.ListenAndServe(":"+port, api))
 
 }
 
