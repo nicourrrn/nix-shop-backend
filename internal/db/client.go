@@ -111,3 +111,9 @@ func (repo *clientRepo) AllBasket(clientId int64) (baskets []SavedBasket, err er
 	}
 	return
 }
+
+func (repo *clientRepo) ClientData(clientId int64) (BaseClient, error) {
+	data := BaseClient{}
+	err := repo.connection.Get(&data, "SELECT * FROM clients WHERE id = ?", clientId)
+	return data, err
+}
