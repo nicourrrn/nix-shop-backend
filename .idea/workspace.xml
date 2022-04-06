@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b1c2116-65f8-42a1-bfb4-b593ce04b044" name="Changes" comment="Add upd files with shops">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/94b59f95-3de1-4ee4-8adf-a2abe3f08c8b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/94b59f95-3de1-4ee4-8adf-a2abe3f08c8b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6b1c2116-65f8-42a1-bfb4-b593ce04b044" name="Changes" comment="Add get user handler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/api/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/db/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/db/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/models/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/models/model.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +154,8 @@
     <MESSAGE value="View open and close time" />
     <MESSAGE value="Make .env.dist" />
     <MESSAGE value="Add upd files with shops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add upd files with shops" />
+    <MESSAGE value="Add get user handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add get user handler" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
