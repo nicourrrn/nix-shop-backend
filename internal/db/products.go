@@ -10,7 +10,10 @@ type productRepo struct {
 }
 
 func (repo *productRepo) GetAllIngredients() (ingredients []Type) {
-	repo.connection.Select(&ingredients, "SELECT id, name FROM ingredients")
+	err := repo.connection.Select(&ingredients, "SELECT id, name FROM ingredients")
+	if err != nil {
+		panic(err)
+	}
 	return
 }
 

@@ -1,6 +1,7 @@
 package db
 
 import (
+	"errors"
 	"github.com/jmoiron/sqlx"
 	. "github.com/nicourrrn/nix-shop-backend/internal/models"
 	"golang.org/x/crypto/bcrypt"
@@ -14,7 +15,7 @@ type clientRepo struct {
 func (repo *clientRepo) NewClient(name, phone, password string) (int64, error) {
 	encryptedPassword, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
 	if err != nil {
-		return -1, err
+		return -1, errors.New(BcryptError)
 	}
 	scannedClient := BaseClient{
 		Name:     name,
@@ -25,7 +26,7 @@ func (repo *clientRepo) NewClient(name, phone, password string) (int64, error) {
 		"INSERT INTO clients(name, phone, password) VALUE (:name, :phone, :password)",
 		scannedClient)
 	if err != nil {
-		return -1, err
+		return -1, errors.New(TakenClient)
 	}
 	return result.LastInsertId()
 }
@@ -35,10 +36,12 @@ func (repo *clientRepo) GetClient(phone string, password string) (id int64, name
 	var savedPassword string
 	err = row.Scan(&id, &name, &savedPassword)
 	if err != nil {
+		err = errors.New(InvalidClient)
 		return
 	}
 	err = bcrypt.CompareHashAndPassword([]byte(savedPassword), []byte(password))
 	if err != nil {
+		err = errors.New(InvalidClient)
 		return
 	}
 	return

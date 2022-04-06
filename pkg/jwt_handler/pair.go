@@ -17,11 +17,11 @@ func NewTokenPair(userId int64, userType string) TokenPair {
 }
 func NewTokenPairFromStrings(refresh, access string) (pair TokenPair, err error) {
 	pair.RefreshToken, err = GetClaim(refresh, refreshKey)
-	if err != nil && !strings.HasPrefix(err.Error(), "token is expired ") {
+	if err != nil {
 		return
 	}
 	pair.AccessToken, err = GetClaim(access, accessKey)
-	if err != nil && !strings.HasPrefix(err.Error(), "token is expired ") {
+	if err != nil && !strings.HasPrefix(err.Error(), "token is") {
 		return
 	}
 	err = nil
