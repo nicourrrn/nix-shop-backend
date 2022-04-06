@@ -19,6 +19,7 @@ func main() {
 	api.Handle("/user/signup", headersMiddleware.ThenFunc(PostSignUp))
 	api.Handle("/user/refresh", headersMiddleware.ThenFunc(PostRefresh))
 	api.Handle("/user/logout", headersMiddleware.ThenFunc(GetLogOut))
+	api.Handle("/user", headersMiddleware.ThenFunc(GetUser))
 	api.Handle("/suppliers", headersMiddleware.ThenFunc(GetSuppliers))
 	api.Handle("/products", headersMiddleware.ThenFunc(GetSupplierMenu))
 	api.Handle("/basket/new", headersMiddleware.ThenFunc(PostBasket))

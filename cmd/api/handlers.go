@@ -195,6 +195,29 @@ func GetSuppliers(writer http.ResponseWriter, request *http.Request) {
 	}
 }
 
+func GetUser(writer http.ResponseWriter, request *http.Request) {
+	if request.Method != http.MethodGet {
+		http.Error(writer, "not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	token := request.Header.Get("Access-Token")
+	claim, err := jwt_handler.GetClaim(token, jwt_handler.GetAccess())
+	if err != nil {
+		http.Error(writer, err.Error(), http.StatusBadRequest)
+		return
+	}
+	data, err := db.Clients.ClientData(claim.UserId)
+	if err != nil {
+		http.Error(writer, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	err = json.NewEncoder(writer).Encode(data)
+	if err != nil {
+		http.Error(writer, err.Error(), http.StatusInternalServerError)
+		return
+	}
+}
+
 func GetSupplierMenu(writer http.ResponseWriter, request *http.Request) {
 	if request.Method != http.MethodGet {
 		http.Error(writer, "not allowed", http.StatusMethodNotAllowed)
@@ -228,10 +251,12 @@ func GetAllBasket(writer http.ResponseWriter, request *http.Request) {
 		http.Error(writer, err.Error(), http.StatusInternalServerError)
 		return
 	}
+	if baskets == nil {
+		baskets = make([]SavedBasket, 0)
+	}
 	err = json.NewEncoder(writer).Encode(baskets)
 	if err != nil {
 		http.Error(writer, err.Error(), http.StatusInternalServerError)
 		return
 	}
-
 }
